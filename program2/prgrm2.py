@@ -8,7 +8,7 @@ num_list=[]
 for i in range(n):
     a=int(input("Enter the numbers:"))
     num_list.append(a)
-    print("Entered list:",num_list)
+print("Entered list:",num_list)
 sqr_lst=[x**2 for x in num_list]
 print("squared list:",sqr_lst)
 

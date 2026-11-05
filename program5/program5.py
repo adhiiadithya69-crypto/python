@@ -8,4 +8,4 @@ for x in range(n):
         for j in i:
             if 'a' in j.lower():
                 c=c+1
-                print("the occurance of 'a' is:",c)
+print("the occurance of 'a' is:",c)
